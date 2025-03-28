@@ -79,7 +79,7 @@ server.tool(
 // Handle server startup
 async function main() {
     if (!apiKey) {
-        console.error("[ERROR] No API key provided. Please set the EUREKA_API_KEY environment variable or use --eureka-api-key argument.");
+        console.error("[ERROR] No API key provided. Please set the EUREKA_API_KEY environment variable or use --api-key argument.");
         process.exit(1);
     }
 
